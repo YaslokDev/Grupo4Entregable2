@@ -70,24 +70,17 @@ article {
   margin-top: 30px;
 }
 
-#whoWeAre article {
-  width: calc(33.3% - 20px);
-  margin-right: 20px;
-  display: inline-block;
-  vertical-align: top;
+.articulo-izquierda {
+  float: left;
+  width: 50%;
 }
 
-#whoWeAre .articulo-derecha1::before,
-#whoWeAre .articulo-derecha2::before {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: calc(-20px / 2);
+.articulo-derecha1 {
+  float: left;
+  width: 50%;
 }
 
-#whoWeAre .articulo-derecha2::before {
-  right: calc(-100% - 20px);
+.articulo-derecha2 {
+  float: left;
+  width: 50%;
 }
