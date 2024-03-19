@@ -67,6 +67,10 @@ nav ul li a {
   overflow: auto;
 }
 
+#whoWeAre p {
+  color: #858383;
+}
+
 article {
   margin-top: 30px;
 }
@@ -166,4 +170,20 @@ article {
   text-align: justify;
   font-size: 0.8em;
   padding: 0 80px;
+}
+
+#portfolio {
+  background: #f2f2f2;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#portfolio p {
+  margin-bottom: 40px;
+  color: #858383;
+}
+
+#location p {
+  text-align: center;
+  color: #858383;
 }
