@@ -60,6 +60,12 @@ nav ul li a {
   text-align: center;
 }
 
+nav ul li a:hover {
+  background: white;
+  color: #61458c;
+  border-radius: 35%;
+}
+
 #whoWeAre {
   background: #f2f2f2;
   text-align: center;
