@@ -219,14 +219,12 @@ article {
 }
 
 #contact {
-  position: relative;
-}
-
-#contact img {
+  background-image: url("/img/map-image.png");
   background-color: #79629e;
-  max-width: 100%;
-  height: auto;
-  display: block;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 
 .contact-container {
@@ -249,16 +247,20 @@ form {
 }
 
 label {
-  display: flex;
+  display: inline-block;
+  text-align: right;
   align-items: center;
   margin-right: 10px;
+  width: 40%;
 }
 
 input,
 textarea {
-  float: right;
-  width: calc(100% - 120px);
+  width: 200px;
   padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid white;
 }
 
 button {
