@@ -40,6 +40,7 @@ nav {
   justify-content: flex-end;
   width: 100%;
   background: #61458c;
+  height: 50px;
 }
 
 nav ul {
@@ -63,7 +64,8 @@ nav ul li a {
 nav ul li a:hover {
   background: white;
   color: #61458c;
-  border-radius: 35%;
+  border-radius: 8px;
+  margin-top: 5px;
 }
 
 #whoWeAre {
@@ -132,6 +134,7 @@ article {
   border-color: rgba(211, 211, 211, 0.5);
   margin-bottom: 10px;
   margin-right: 10px;
+  color: #61458c;
 }
 
 .fa-solid {
@@ -140,6 +143,10 @@ article {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
+}
+
+.fa-solid:hover {
+  color: white;
 }
 
 #services {
@@ -191,6 +198,7 @@ article {
 
 #location {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #location p {
@@ -202,14 +210,14 @@ article {
   overflow: hidden;
   margin-top: 40px;
   border: 2px solid black;
+  display: inline-block;
+  margin-left: 100px;
 }
 
 #location #direccion {
   float: right;
   text-align: left;
-  padding-top: 80px;
-  display: flex;
-  flex-direction: column;
+  margin-right: 120px;
   align-items: center;
   margin-top: 50px;
 }
