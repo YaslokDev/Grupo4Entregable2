@@ -29,10 +29,16 @@ h1 {
 h2 {
   padding: 30px;
   text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 h2 + p {
   justify-content: center;
+}
+
+h3 {
+  font-weight: 400;
 }
 
 nav {
@@ -137,6 +143,11 @@ article {
   color: #61458c;
 }
 
+.circulo:hover {
+  background-color: #61458c;
+  transition-duration: 2s;
+}
+
 .fa-solid {
   position: absolute;
   top: 50%;
@@ -189,11 +200,29 @@ article {
   background: #f2f2f2;
   text-align: center;
   padding-bottom: 100px;
+  margin: 0 50px 0 50px;
 }
 
 #portfolio p {
   margin-bottom: 40px;
   color: #858383;
+}
+
+#portfolio img {
+  margin: 5px 0;
+}
+
+#portfolio .skw:hover {
+  transform: rotate(-10deg);
+}
+
+.fullrotate {
+  transition: transform 1s ease;
+}
+
+.fullrotate:hover {
+  transform: rotate(360deg);
+  border-radius: 50%;
 }
 
 #location {
@@ -229,25 +258,14 @@ article {
 #contact {
   background-image: url("/img/map-image.png");
   background-color: #79629e;
-  height: 450px;
+  height: 500px;
   background-position: center;
   background-size: cover;
   color: white;
 }
 
-.contact-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 20px;
-  color: white;
-}
-
-.contact-container h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
+.articulo-form {
+  margin-top: -15px;
 }
 
 form {
@@ -274,6 +292,9 @@ textarea {
 button {
   display: block;
   margin: 0 auto;
+  width: 100px;
+  border-radius: 3px;
+  border: 0.5px solid grey;
 }
 
 footer {
