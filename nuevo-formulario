@@ -1,0 +1,79 @@
+#contact {
+  background-image: url("/img/map-image.png");
+  background-color: #79629e;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.articulo-form {
+  display: inline-block;
+  text-align: left;
+}
+
+.articulo-form form {
+  text-align: left;
+  display: inline-block;
+}
+
+.articulo-form label {
+  display:  inline-block;
+  text-align: right;
+  align-items: center;
+  margin-right: 10px;
+  width: 40%;
+  vertical-align: top;
+}
+/*///////////////////////////////////////*/
+.articulo-form input[type="text"],
+    .articulo-form input[type="email"],
+    .articulo-form input[type="tel"],
+    .articulo-form textarea {
+        width: 200px; /* Ancho de los campos de entrada */
+        vertical-align: top; /* Alineación vertical al principio */
+    }
+    .articulo-form button {
+        margin-left: 110px; /* Alineación del botón respecto a los campos de entrada */
+    }
+    #contact {
+      text-align: center;
+  }
+  .articulo-form {
+      display: inline-block;
+      text-align: left;
+  }
+  .articulo-form form {
+      display: inline-block;
+      text-align: left;
+  }
+  .articulo-form label {
+      display: inline-block;
+      width: 100px; /* Ancho de las etiquetas */
+      text-align: right;
+      margin-right: 10px; /* Espacio entre la etiqueta y el campo de entrada */
+      vertical-align: top; /* Alineación vertical al principio */
+  }
+/*/////////////////////////////////////////*/
+input,
+textarea {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.form-group input[type=""] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  border-radius: 3px;
+  border: 0.5px solid grey;
+}
