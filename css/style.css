@@ -265,19 +265,52 @@ article {
 }
 
 .articulo-form {
-  margin-top: -15px;
-}
-
-form {
+  display: inline-block;
   text-align: left;
 }
 
-label {
+.articulo-form form {
+  text-align: left;
+  display: inline-block;
+}
+
+.articulo-form label {
   display: inline-block;
   text-align: right;
   align-items: center;
   margin-right: 10px;
   width: 40%;
+  vertical-align: top;
+}
+.articulo-form input[type="text"],
+.articulo-form input[type="email"],
+.articulo-form input[type="tel"],
+.articulo-form textarea {
+  width: 200px;
+  vertical-align: top;
+}
+.articulo-form button {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+#contact {
+  text-align: center;
+}
+.articulo-form {
+  display: inline-block;
+  text-align: left;
+}
+.articulo-form form {
+  display: inline-block;
+  text-align: left;
+}
+.articulo-form label {
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+  margin-right: 20px;
+  vertical-align: top;
+  margin-top: 10px;
 }
 
 input,
